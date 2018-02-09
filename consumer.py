@@ -1,6 +1,6 @@
 import sys
 import pika
-from proba import html_parser
+from func import html_parser
 
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
